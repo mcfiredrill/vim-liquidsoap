@@ -4,7 +4,7 @@ Vim syntax highlighting for liquidsoap scripts.
 
 ## INSTALL
 
-Use your favorite vim package manager, I like Vundle.
+Use your favorite vim package manager. I like Vundle.
 
 ```
 Bundle 'mcfiredrill/vim-liquidsoap'
@@ -12,8 +12,9 @@ Bundle 'mcfiredrill/vim-liquidsoap'
 
 Then run `:BundleInstall`.
 
-You also probably want to add this to your .vimrc to .liq files are detected:
+You also probably want to add this to your .vimrc so that .liq files are
+detected:
 
 ```
-au BufRead,BufNewFile *.liq setfiletype liquidsoap
+au BufRead,BufNewFile *.liq set filetype=liquidsoap
 ```
