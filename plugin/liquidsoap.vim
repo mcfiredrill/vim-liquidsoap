@@ -10,11 +10,11 @@ endif
 syn keyword liquidsoapFunction def end
 syn keyword liquidsoapConditonal if else end
 syn match   liquidsoapComment "#.*$"
-syn match   liquidSoapNumber '\d\+'
+syn match   liquidsoapNumber '\d\+'
 
 let b:current_syntax = "liquidsoap"
 
 hi def link liquidsoapFunction Keyword
 hi def link liquidsoapConditonal Keyword
 hi def link liquidsoapComment Comment
-hi def link liquidSoapNumber Number
+hi def link liquidsoapNumber Number
